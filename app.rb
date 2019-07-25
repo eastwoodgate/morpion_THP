@@ -1,4 +1,4 @@
-require_relative 'lib/board_class.rb'
+require_relative 'lib/classes.rb'
 
 
 
