@@ -391,7 +391,7 @@ elsif @individual_moves_array.include? "C1"&&"C2"&&"C3"
 
    puts " |----#{@@A1_graphic}--|----#{@@A2_graphic}---|----#{@@A3_graphic}---|"
    puts " |----#{@@B1_graphic}--|----#{@@B2_graphic}---|----#{@@B3_graphic}---|"
-   puts " |----#{@@C1_graphic}--|----#{@@C2_graphic}---|----#{@@C2_graphic}---|"
+   puts " |----#{@@C1_graphic}--|----#{@@C2_graphic}---|----#{@@C3_graphic}---|"
 
 
   
