@@ -1,4 +1,3 @@
-
 class Board
 
 	attr_accessor:total_board_moves_array
@@ -226,18 +225,19 @@ puts "#{@name} needs to chose his next move"
    	      end
 
      
-     elsif @chosen_play == 'B3'
+       elsif @chosen_play == 'B3'
 
-          if @total_board_moves_array.include? "B3"
+       
+         if @@total_board_moves_array.include? "B3"
 
-   	    	 puts "you can't play here, this position is already occupied"
-
-
-   	   	    play
+           puts "you can't play here, this position is already occupied"
 
 
+            play
 
-   	      else
+
+
+          else
 
  
              @@total_board_moves_array << 'B3'
@@ -246,10 +246,12 @@ puts "#{@name} needs to chose his next move"
 
              puts "#{@name} played in B3"
 
-
              @@B3_graphic = @symbol
 
-   	      end
+
+
+          end
+
 
 
     elsif @chosen_play == 'C1'
